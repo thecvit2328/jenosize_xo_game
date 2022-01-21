@@ -68,7 +68,6 @@ const Declare = styled.div`
   background-color: #8acfff;
   position: absolute;
   left: 25px;
-  top: 55px;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
@@ -107,7 +106,7 @@ const Home = () => {
     player: humanPlayer,
   });
   const [declareWinner, setDeclareWinner] = useState({
-    status: true,
+    status: false,
     message: "",
   });
 
